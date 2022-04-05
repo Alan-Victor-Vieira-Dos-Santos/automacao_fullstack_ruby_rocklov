@@ -1,12 +1,8 @@
 Dado('que estou logado no sistema RockLov com o {string} e {string}') do |email, password|
     @email = email
     
-    visit "/" 
-    
-    find("#email").set email
-    find("#password").set password
-
-    click_button "Entrar"
+    @login_page.abre_pagina
+    @login_page.preencher_login(email, password)
 end
   
 Dado('que acesso o formulario de cadastro de anuncios') do

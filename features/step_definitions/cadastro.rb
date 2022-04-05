@@ -1,17 +1,12 @@
 Dado('que acesso a página de cadastro') do
-    visit "/signup"
+    @signup_page.open
 end
   
 Quando('submeto o seguinte formulario de cadastro') do |table|
-
     user = table.hashes.first
 
     MongoDB.new.remover_usuario(user[:email])
 
-    find("#fullName").set user[:nome]
-    find("#email").set user[:email]
-    find("#password").set user[:senha]
-
-    click_button "Cadastrar"
+    @signup_page.create(user)
 end
 
