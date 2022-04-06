@@ -13,4 +13,5 @@ class SignupPage
         find("#password").set user[:senha]
     
         click_button "Cadastrar"
+    end
 end 

@@ -1,13 +1,12 @@
-Dado('que estou logado no sistema RockLov com o {string} e {string}') do |email, password|
+Dado('Login com {string} e {string}') do |email, password|
     @email = email
     
     @login_page.abre_pagina
     @login_page.preencher_login(email, password)
 end
-  
+ 
 Dado('que acesso o formulario de cadastro de anuncios') do
-    click_button "Criar anúncio"
-    expect(page).to have_css "#equipoForm"
+    @dash_page.goto_equipo_form
 end
 
 Dado('que eu tenho o seguinte equipamento') do |table|
@@ -17,19 +16,14 @@ Dado('que eu tenho o seguinte equipamento') do |table|
 end
   
 Quando('submeto o cadastro desse item') do
-
-    imagem = Dir.pwd + "/features/support/fixtures/images/" + @anuncio[:imagem]
-
-    find("#thumbnail input[type=file]", visible: false).set imagem
-    find("#name").set @anuncio[:nome]
-    find("#category").find('option', text: @anuncio[:categoria]).select_option
-    find("#price").set @anuncio[:preco]   
-
-    click_button "Cadastrar"
+    @equipos_page.create(@anuncio)
 end
   
 Então('devo ver este item no meu Dashboard') do
-    anuncios = find(".equipo-list")
-    expect(anuncios).to have_content @anuncio[:nome]
-    expect(anuncios).to have_content "R$#{@anuncio[:preco]}/dia"
+    expect(@dash_page.equipo_list).to have_content @anuncio[:nome]
+    expect(@dash_page.equipo_list).to have_content "R$#{@anuncio[:preco]}/dia"
+end
+
+Então('deve conter a mensagem de alerta: {string}') do |expect_alert|
+    expect(@alert.dark).to have_text expect_alert
 end
