@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="34" skipped="0" failures="0" errors="0" time="0.473614" timestamp="2022-04-13T15:09:07-03:00" hostname="Alan-Desktop">
+<properties>
+<property name="seed" value="46225"/>
+</properties>
+<testcase classname="spec.equipo_post_spec" name="POST /equipos Novo Equipamento Deve retornar 200" file="./spec/equipo_post_spec.rb" time="0.010905"></testcase>
+<testcase classname="spec.equipo_post_spec" name="POST /equipos Cadastro Nao Autorizado Deve retornar 401" file="./spec/equipo_post_spec.rb" time="0.000132"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Login com sucesso Valida Status code" file="./spec/session_post_spec.rb" time="0.000134"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Login com sucesso Valida ID Usuario" file="./spec/session_post_spec.rb" time="0.000214"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Senha Incorreta Valida Status code: 401" file="./spec/session_post_spec.rb" time="0.000182"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Senha Incorreta Valida Response: Unauthorized" file="./spec/session_post_spec.rb" time="0.000753"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Email Incorreto Valida Status code: 412" file="./spec/session_post_spec.rb" time="0.000140"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Email Incorreto Valida Response: wrong email" file="./spec/session_post_spec.rb" time="0.000222"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Senha em branco Valida Status code: 412" file="./spec/session_post_spec.rb" time="0.000134"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Senha em branco Valida Response: required password" file="./spec/session_post_spec.rb" time="0.000349"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Email em branco Valida Status code: 412" file="./spec/session_post_spec.rb" time="0.000170"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Email em branco Valida Response: required email" file="./spec/session_post_spec.rb" time="0.000204"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Sem o campo senha Valida Status code: 412" file="./spec/session_post_spec.rb" time="0.000156"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Sem o campo senha Valida Response: required password" file="./spec/session_post_spec.rb" time="0.000196"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Sem o campo email Valida Status code: 412" file="./spec/session_post_spec.rb" time="0.000132"></testcase>
+<testcase classname="spec.session_post_spec" name="POST /sessions Sem o campo email Valida Response: required email" file="./spec/session_post_spec.rb" time="0.000215"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Cadastro com Sucesso Valida Status code" file="./spec/signup_post_spec.rb" time="0.000129"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Cadastro com Sucesso Valida ID Usuario" file="./spec/signup_post_spec.rb" time="0.000119"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Usuario que ja Existe Valida Status code 409" file="./spec/signup_post_spec.rb" time="0.000118"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Usuario que ja Existe Valida Response" file="./spec/signup_post_spec.rb" time="0.000145"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Nome em branco Valida Status code: 412" file="./spec/signup_post_spec.rb" time="0.000144"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Nome em branco Valida Response: required name" file="./spec/signup_post_spec.rb" time="0.000161"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo nome Valida Status code: 412" file="./spec/signup_post_spec.rb" time="0.000310"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo nome Valida Response: required name" file="./spec/signup_post_spec.rb" time="0.000182"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Email em branco Valida Status code: 412" file="./spec/signup_post_spec.rb" time="0.000114"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Email em branco Valida Response: required email" file="./spec/signup_post_spec.rb" time="0.000391"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo email Valida Status code: 412" file="./spec/signup_post_spec.rb" time="0.000119"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo email Valida Response: required email" file="./spec/signup_post_spec.rb" time="0.000183"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo email Valida Status code: 412" file="./spec/signup_post_spec.rb" time="0.000116"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo email Valida Response: wrong email" file="./spec/signup_post_spec.rb" time="0.000190"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Senha em branco Valida Status code: 412" file="./spec/signup_post_spec.rb" time="0.000129"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Senha em branco Valida Response: required password" file="./spec/signup_post_spec.rb" time="0.000129"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo senha Valida Status code: 412" file="./spec/signup_post_spec.rb" time="0.000157"></testcase>
+<testcase classname="spec.signup_post_spec" name="POST /signup Sem o campo senha Valida Response: required password" file="./spec/signup_post_spec.rb" time="0.000332"></testcase>
+</testsuite>

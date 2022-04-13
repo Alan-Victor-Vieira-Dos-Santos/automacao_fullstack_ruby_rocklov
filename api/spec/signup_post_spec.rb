@@ -1,6 +1,3 @@
-require_relative "signup"
-require_relative "mongo"
-
 describe "POST /signup" do 
     context "Cadastro com Sucesso" do
         before(:all) do 
