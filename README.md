@@ -1,7 +1,5 @@
 <div align="center"><img src="https://raw.githubusercontent.com/asilvadev/QA-automacao-RockLov/70fb6de966dc12f2dc958246079b5a452aba6846/_/logo.9ba1ab0c.svg" title="jenkins" alt="jenkins" width="250" height="150" />
 
-![GitHub](https://img.shields.io/github/license/asilvadev/QA-automacao-RockLov?style=flat-square)
-![Made](https://img.shields.io/badge/Made_with-Coffee-red?logo=coffeescript&style=flat-square)
 <br/>
 <br/>
 <a href="https://www.linkedin.com/in/alan-victor-222617205/">
