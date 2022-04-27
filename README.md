@@ -29,13 +29,13 @@
 <br/>
 
 ## 🛠️ Steps
-![image](_/steps.svg)
+![image](images_readme/steps.svg)
 [Tutorial Docker Web-agent](https://bit.ly/3ktpEw2)
 
 <br/>
 
 ## 📷 Screenshots
-![image](_/71cf24c20ced.gif)
+![image](images_readme/71cf24c20ced.gif)
 
 
 ## 
