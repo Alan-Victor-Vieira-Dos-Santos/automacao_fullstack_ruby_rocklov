@@ -12,7 +12,7 @@ class MongoDB
         @equipos = client[:equipos]
     end 
 
-    def remover_usuario(email)
+    def remove_user(email)
         @users.delete_many({email: email})
     end 
 
@@ -21,9 +21,13 @@ class MongoDB
         return user [:_id]
     end
 
-    def remover_equipamento(name, user_id)
+    def remove_equipo(name, user_id)
         obj_id = BSON::ObjectId.from_string(user_id)
         @equipos.delete_many({name: name, user: obj_id })
+    end 
+
+    def get_mongo_id
+        return BSON::ObjectId.new
     end 
 end
 

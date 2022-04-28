@@ -4,7 +4,7 @@ describe "POST /signup" do
 
             payload = { name: "Alan Victor", email: "alan@gmail.com", password: "Senha1234" }
            
-            MongoDB.new.remover_usuario(payload[:email])
+            MongoDB.new.remove_user(payload[:email])
           
             @result = Signup.new.create(payload)
         end 

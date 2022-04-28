@@ -12,7 +12,7 @@ end
 Dado('que eu tenho o seguinte equipamento') do |table|
     @anuncio = table.rows_hash 
 
-    MongoDB.new.remover_equipamento(@anuncio[:nome], @email)
+    MongoDB.new.remove_equipo(@anuncio[:nome], @email)
 end
   
 Quando('submeto o cadastro desse item') do

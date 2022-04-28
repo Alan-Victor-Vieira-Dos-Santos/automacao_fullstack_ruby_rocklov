@@ -5,7 +5,7 @@ end
 Quando('submeto o seguinte formulario de cadastro') do |table|
     user = table.hashes.first
 
-    MongoDB.new.remover_usuario(user[:email])
+    MongoDB.new.remove_user(user[:email])
 
     @signup_page.create(user)
 end
