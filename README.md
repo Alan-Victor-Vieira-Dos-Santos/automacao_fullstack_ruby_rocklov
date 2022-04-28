@@ -27,45 +27,8 @@
 <br/>
 
 ## 🛠️ Steps
-#Tenha certeza que voce tem o Ruby Instalado 
-ruby -v 
-
-
-#Tenha certeza que voce tem o Docker Instalado e monte o ambiente 
-
-docker -v 
-cd infra 
-cd rocklov-dc
-docker-compose up -d
-
-
-#Para testar WEB
-cd web
-bundle install
-rake local_seeds
-
-
-#Para testar API 
-cd api
-bundle install
-rspec
-
-
-# Usuário Windows: vá até "C:\WIndows\System32\drivers\etc" e adicione a segunte configuracao no arquivo hosts
-127.0.0.1 rocklov-db
-127.0.0.1 rocklov-api
-127.0.0.1 rocklov-web
-
-#Caso voce use o Jenkins (Opcional)
-127.0.0.1 jenkins
-
-
-#Para executar o Jenkins
-Use o tutorial: https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801
-
-
-
-#DockerFile
-Docker File esta em cd infra/ruby-web-agent
+![image](images_readme/steps.jpg)
+[Tutorial Docker Web-agent]( https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801)
 
 <br/>
+
