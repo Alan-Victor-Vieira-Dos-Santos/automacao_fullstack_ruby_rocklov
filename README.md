@@ -70,11 +70,11 @@ Usuário Windows: vá até "**C:\WIndows\System32\drivers\etc**" e adicione a se
 
 **#Para executar o Jenkins**
 
-Use o tutorial: [https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801](https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801) (Link Abaixo)
+Use o tutorial: [https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801](https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801)
 
 <br/>
-**#DockerFile**
 
+#DockerFile
 Docker File esta em cd infra/ruby-web-agent
 <br/>
 
