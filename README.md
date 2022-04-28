@@ -9,7 +9,7 @@
 <br/>
 
 
-## 👨🏽‍💻 Technologies
+## Tecnologias Utilizadas
 <p align="left">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/85ec92b476b9e9ef1d1e18cb42f894b6124cee88/icons/ruby.svg" title="ruby" alt="ruby" width="25" height="25" />
 <br/>
@@ -26,7 +26,7 @@
 </P>
 <br/>
 
-## 🛠️ Steps
+## 🛠️ Passo a Passo para configuracao do ambiente 
 
 **#Tenha certeza que voce tem o Ruby Instalado**
 
