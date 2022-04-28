@@ -28,25 +28,24 @@
 
 ## 🛠️ Steps
 #Tenha certeza que voce tem o Ruby Instalado 
-
 ruby -v 
+
 
 #Tenha certeza que voce tem o Docker Instalado e monte o ambiente 
 
 docker -v 
-
 cd infra 
 cd rocklov-dc
 docker-compose up -d
 
-#Para testar WEB
 
+#Para testar WEB
 cd web
 bundle install
 rake local_seeds
 
-#Para testar API 
 
+#Para testar API 
 cd api
 bundle install
 rspec
@@ -60,12 +59,13 @@ rspec
 #Caso voce use o Jenkins (Opcional)
 127.0.0.1 jenkins
 
-#Para executar o Jenkins
 
+#Para executar o Jenkins
 Use o tutorial: https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801
 
-#DockerFile
 
+
+#DockerFile
 Docker File esta em cd infra/ruby-web-agent
 
 <br/>
