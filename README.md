@@ -78,3 +78,9 @@ Use o tutorial: [https://medium.com/qaninja/rodando-o-jenkins-em-um-container-do
 Docker File esta em cd infra/ruby-web-agent
 <br/>
 
+**#Links de acesso apos configuracao do arquivo Hosts**
+Web: http://rocklov-web:3000
+<br/>
+Documentacao: http://rocklov-api:3333/api-docs
+
+
