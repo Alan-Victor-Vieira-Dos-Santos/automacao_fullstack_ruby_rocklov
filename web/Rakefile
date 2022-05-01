@@ -1,0 +1,43 @@
+require_relative "features/support/libs/mongo"
+require "digest/md5"
+
+def to_md5(password)
+  return Digest::MD5.hexdigest(password)
+end
+
+task :local_seeds do
+
+  CONFIG = YAML.load_file(File.join(Dir.pwd, "features/support/config/local.yml"))
+ 
+  users = [
+    { name: "Alan", email: "alan@gmail.com", password: to_md5("Senha1234") },
+    { name: "Victor", email: "victor@gmail.com", password: to_md5("Senha1234") },
+    { name: "Gabi", email: "gabi@gmail.com", password: to_md5("Senha1234") },
+    { name: "Edward", email: "ed@temp.vc", password: to_md5("Senha1234") },
+    { name: "Thiago", email: "thiago@gmail.com", password: to_md5("Senha1234") },
+    { name: "Joe", email: "joe@temp.vc", password: to_md5("Senha1234") },
+    { name: "anunciante", email: "anunciante@temp.vc", password: to_md5("Senha1234") },
+    { name: "locataria", email: "locataria@temp.vc", password: to_md5("Senha1234") },
+  ]
+  MongoDB.new.drop_danger
+  MongoDB.new.insert_users(users)
+
+  sh "cucumber"
+end
+
+task :hmg_seeds do
+
+  CONFIG = YAML.load_file(File.join(Dir.pwd, "features/support/config/hmg.yml"))
+  
+  users = [
+    { name: "Alan", email: "alan@gmail.com", password: to_md5("Senha1234") },
+    { name: "Victor", email: "victor@gmail.com", password: to_md5("Senha1234") },
+    { name: "Gabi", email: "gabi@gmail.com", password: to_md5("Senha1234") },
+    { name: "Edward", email: "ed@temp.vc", password: to_md5("Senha1234") },
+    { name: "Joe", email: "joe@temp.vc", password: to_md5("Senha1234") },
+    { name: "Joe", email: "anunciante@temp.vc", password: to_md5("Senha1234") },
+    { name: "locataria", email: "locataria@temp.vc", password: to_md5("Senha1234") },
+  ]
+  MongoDB.new.drop_danger
+  MongoDB.new.insert_users(users)
+end

@@ -1,14 +1,14 @@
 class LoginPage
     include Capybara::DSL
-
-    def abre_pagina
-        visit "/"
+  
+    def open
+      return visit "/"
     end
-
-    def preencher_login(email,password)
-        find("#user_email").set email
-        find("#user_password").set password
-        click_button "Entrar"
+  
+    def with(email, password)
+      find("input[placeholder= 'Seu email']").set email
+      find("input[type=password]").set password
+  
+      click_button "Entrar"
     end
-end
- 
+  end
