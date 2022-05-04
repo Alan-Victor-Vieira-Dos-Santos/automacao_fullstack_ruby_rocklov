@@ -1,0 +1,188 @@
+# Logfile created on 2022-05-03 22:18:26 -0300 by logger.rb/61378
+D, [2022-05-03T22:18:26.336483 #40087] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2022-05-03T22:18:26.336628 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2022-05-03T22:18:26.336724 #40087] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2022-05-03T22:18:26.336867 #40087] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+W, [2022-05-03T22:18:26.353271 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:26.353435 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:26.353505 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:27.354676 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:27.354978 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:27.355139 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:28.371999 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:28.372261 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:28.372402 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:29.357828 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:29.358085 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:29.358209 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:30.357879 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:30.358161 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:30.358325 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:31.375964 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:31.376212 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:31.376350 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:32.351968 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:32.352206 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:32.352391 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:33.360538 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:33.360793 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:33.360961 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:34.357887 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:34.358132 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:34.358294 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:35.352108 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:35.352354 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:35.352493 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:36.351850 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:36.352091 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:36.352229 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:37.362557 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:37.362820 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:37.363022 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:38.354231 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:38.354495 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:38.354649 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:39.362906 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:39.363149 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:39.363312 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:40.360414 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:40.360665 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:40.360807 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:41.354513 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:41.354762 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:41.354917 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:42.361673 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:42.362014 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:42.362157 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:43.361317 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:43.361556 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:43.361710 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:44.361495 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:44.361787 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:44.361927 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:45.369176 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:45.369441 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:45.369594 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:46.371296 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:46.371576 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:46.371699 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:47.365428 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:47.365760 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:47.365902 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:48.360960 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:48.361210 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:48.361352 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:49.361340 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:49.361578 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:49.361736 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:50.365062 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:50.365304 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:50.365440 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:51.367376 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:51.367617 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:51.367747 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:52.361734 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:52.362072 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:52.362214 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:53.361594 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:53.361875 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:53.362017 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:54.361422 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:54.361668 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:54.361817 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:55.361081 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:55.361305 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:55.361440 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:56.361400 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:56.361634 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:56.361857 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:57.353131 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:57.353400 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:57.353561 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:58.351725 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:58.352009 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:58.352139 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:18:59.362635 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:18:59.363186 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:18:59.363501 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:00.367884 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:00.368146 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:00.368289 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:01.367595 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:01.367934 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:01.368084 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:02.351148 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:02.351414 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:02.351555 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:03.351079 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:03.351411 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:03.351522 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:04.358427 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:04.358605 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:04.358736 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:05.350521 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:05.350687 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:05.350814 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:06.356632 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:06.356823 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:06.356880 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:07.351148 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:07.351330 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:07.351397 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:08.350974 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:08.351162 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:08.351284 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:09.360634 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:09.360932 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:09.361130 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:10.360817 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:10.361098 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:10.361217 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:11.360144 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:11.360395 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:11.360530 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:12.361430 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:12.361733 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:12.361888 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:13.361006 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:13.361258 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:13.361405 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:14.360858 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:14.361141 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:14.361282 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:15.367103 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:15.367342 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:15.367475 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:16.367348 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:16.367586 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:16.367739 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:17.396750 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:17.396923 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:17.396997 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:18.360776 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:18.360993 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:18.361096 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:19.360503 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:19.360834 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:19.360946 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:20.357409 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:20.357673 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:20.357807 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:21.360577 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:21.360791 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:21.360900 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:22.361033 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:22.361270 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:22.361398 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:23.361371 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:23.361531 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:23.361604 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:24.361257 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:24.361521 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:24.361641 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:25.360424 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:25.360665 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:25.360777 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2022-05-03T22:19:26.360558 #40087]  WARN -- : MONGODB | Error running ismaster on rocklov-db:27017: SocketError: getaddrinfo: Name or service not known
+D, [2022-05-03T22:19:26.360882 #40087] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'unknown'.
+D, [2022-05-03T22:19:26.361017 #40087] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
