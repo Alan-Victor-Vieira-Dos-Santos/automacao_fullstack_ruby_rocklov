@@ -1,4 +1,3 @@
-<div align="center"><img src="https://raw.githubusercontent.com/asilvadev/QA-automacao-RockLov/70fb6de966dc12f2dc958246079b5a452aba6846/_/logo.9ba1ab0c.svg" title="jenkins" alt="jenkins" width="250" height="150" />
 
 <br/>
 <br/>
