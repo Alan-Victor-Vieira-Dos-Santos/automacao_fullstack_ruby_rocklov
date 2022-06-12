@@ -1,5 +1,5 @@
 ## Sobre este projeto 
-Automação completa de API e Web usando Ruby 
+Projeto de Automação Web e API, usando Ruby, Cucumber, Capybara, Rspec, Httparty e Allure.
 
 ## Meu Perfil no Linkedin
 <br/>
